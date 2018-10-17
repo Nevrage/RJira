@@ -1,0 +1,8 @@
+* auth object => connectivity test 
+* checks if interactive session and opens a browser page  
+* if piped use it  in JQL functions 
+* if not the default user + assword are set to stop("Set a username/password")
+
+
+* licence
+
