@@ -1,9 +1,14 @@
 Package: RJira
-Title: What the Package Does (one line, title case)
-Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+Title: Jira library for R using httr and the tidyverse
+Version: 0.0.0.1000
+Authors@R: person("Ylan", "Allouche", email = "ylan.allouche@gmail.com", role = c("aut", "cre"))
+Description: Interact with Jira and returns dataframes
 Depends: R (>= 3.5.1)
-License: What license is it under?
+License: GPL 2.0
 Encoding: UTF-8
 LazyData: true
+Imports:
+    dplyr (>= 0.4.0),
+    httr (>= 0.2)
+Suggests:
+    ggplot (>= 0.1.0)
